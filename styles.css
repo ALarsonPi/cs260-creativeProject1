@@ -1,0 +1,118 @@
+* {
+  /*box-sizing: border-box;*/
+}
+.topBar {
+  /*<img > for logo*/
+  top: 0;
+  display: flex;
+  width: auto;
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+}
+.logo {
+  width:40px;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+.topBar a {
+  float: left;
+  color: #f3f3a3;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* Change the color of links on hover */
+.topBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topBar a.active {
+  background-color: #06AA4A;
+  color: white;
+}
+
+Body {
+  /*background: url("BYU_Image.jpg");*/
+  background: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+img {
+  border-radius: 50%;
+}
+.imgClass {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left:10%;
+}
+.mugShot {
+  height:200px;
+  width:200px;
+  border: 2px solid black;
+  margin:10px;
+}
+p {
+  width: 200px;
+  background-color: grey;
+  color: black;
+  opacity: 0.9;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:25px;
+  text-align:center;
+}
+h3 {
+  background-color: grey;
+  text-align:center;
+  border-style:hidden;
+  border-radius:25px;
+}
+.theButtonDiv a {
+  float: left;
+  color: #FAB972;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 96px;
+}
+/* Change the color of links on hover */
+.theButtonDiv a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.theButtonDiv a.active {
+  background-color: white;
+  color: white;
+}
+.theButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  margin-left:10%;
+  border-radius: 2px;
+  border-color:black;
+}
+.theButton {
+  border-radius: 2;
+  border-color: orange;
+  background-color: #c9aa88;
+}
+.JoinTheClass {
+  float: right;
+}
+.githubLink {
+  background-color: grey;
+  position: absolute;
+    bottom: 0;
+      display: float;
+  float: none;
+}
