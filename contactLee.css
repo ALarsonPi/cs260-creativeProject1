@@ -1,0 +1,17 @@
+.infoBox {
+  background-color:grey;
+  width:auto;
+  height:auto;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.theImage {
+  display: float;
+  float: left;
+  border-radius: 100%;
+}
+img {
+  border-radius: 100%;
+}
